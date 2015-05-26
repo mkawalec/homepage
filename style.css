@@ -1,0 +1,31 @@
+@font-face {
+    font-family: menlo;
+    src: url(menlo.woff);
+}
+
+body {
+    max-width: 400px;
+    min-width: 200px;
+
+    margin: 20px auto;
+    display: block;
+
+    font-size: 14px;
+    line-height: 21px;
+    color: #333;
+    font-weight: 400;
+}
+
+p {
+    font-family: menlo;
+    margin: 0 0 10px;
+}
+
+a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.spacing-top {
+    margin-top: 50px;
+}
